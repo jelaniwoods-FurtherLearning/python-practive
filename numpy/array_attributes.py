@@ -27,3 +27,10 @@ import numpy as np
 # print(b)
 # # b is having three dimensions
 # print(b.ndim)
+
+#ex6
+# x = np.array([1,2,3,4,5], dtype = np.float32)
+# print(x.itemsize)
+#ex7
+x = np.array([1,2,3,4,5])
+print(x.flags)
