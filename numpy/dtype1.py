@@ -27,3 +27,10 @@ import numpy as np
 # print(a['age'])
 
 # ex7
+# student = np.dtype([('name','S20'), ('age', 'i1'), ('marks', 'f4')])
+# print(student)
+
+# ex8
+student = np.dtype([('name','S20'), ('age', 'i1'), ('marks', 'f4')])
+a = np.array([('abc', 21, 50),('xyz', 18, 75)], dtype = student)
+print(a)
