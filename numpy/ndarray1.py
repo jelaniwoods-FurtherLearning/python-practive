@@ -7,6 +7,11 @@ import numpy as np
 # a = np.array([[1,2], [3, 4]])
 # print(a)
 
-# minimum dimensions? don't really get it yet
-a = np.array([1, 2, 3,4,5], ndmin = 2)
+# ex3
+# # minimum dimensions? don't really get it yet
+# a = np.array([1, 2, 3,4,5], ndmin = 2)
+# print(a)
+
+# ex4
+a = np.array([1, 2, 3], dtype = complex)
 print(a)
